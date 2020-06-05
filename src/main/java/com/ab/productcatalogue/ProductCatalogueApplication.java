@@ -24,11 +24,11 @@ public class ProductCatalogueApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		brandRepository.save(new Brand(1,"Lp"));
+		/*brandRepository.save(new Brand(1,"Lp"));
         brandRepository.save(new Brand(2,"PeterEngland"));
         brandRepository.save(new Brand(3,"Basics"));
         brandRepository.save(new Brand(4,"Wrangler"));
-        brandRepository.save(new Brand(5,"Max"));
+        brandRepository.save(new Brand(5,"Max"));*/
 
         /* productRepository.save(new Product(6,"name1","sku000x1","White","M",2,5,4,1000));
         productRepository.save(new Product(7,"name2","sku000x2","Blue","L",2,3,4,1500));
